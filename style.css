@@ -1,0 +1,86 @@
+.topbox {
+  display: flex;
+  background-color: black;
+  padding: 15px;
+  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.description {
+  margin-top: 100px;
+  text-align: center;
+}
+.mission {
+  margin-top: 100px;
+  text-align: left;
+}
+.mission li {
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overview {
+  margin-top: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.overview li {
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description h1 {
+  color: black;
+}
+h1 {
+  background-color: lightseagreen;
+}
+.title-text {
+  font-size: 50px;
+}
+.small-text {
+  font-size: 20px;
+}
+.eventu {
+  color: blue;
+  font-style: italic;
+}
+.mail:hover {
+  color: orange;
+}
+.mail {
+  color: blue;
+}
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+body {
+  background-color: white;
+}
+a {
+  color: lightcoral;
+  text-decoration: none;
+}
+h2 {
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .topbox {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .description {
+    margin-top: 30px;
+  }
+}
+.address {
+  text-align: center;
+}
